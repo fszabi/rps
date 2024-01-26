@@ -1,0 +1,31 @@
+body {
+  background-color: #191919;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.rock,
+.paper,
+.scissors {
+  background-color: transparent;
+  border: 3px solid #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.reset,
+.auto-play {
+  background-color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  color: #000;
+}
